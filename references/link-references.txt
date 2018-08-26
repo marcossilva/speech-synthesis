@@ -1,8 +1,0 @@
-https://github.com/falabrasil/asr-acoustic-models
-https://github.com/words/cmu-pronouncing-dictionary
-https://github.com/cmusphinx/cmudict
-https://web.archive.org/web/20170428223613/http://www.laps.ufpa.br/falabrasil/files/dictionary2.0.rar
-https://github.com/falabrasil/asr-acoustic-models
-https://github.com/falabrasil?tab=repositories
-http://labvis.ufpa.br/falabrasil/downloads/
-http://phonetictools.altervista.org/phonverter/
