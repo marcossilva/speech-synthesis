@@ -52,10 +52,10 @@ endif
 sync_data_from_s3:
 ifeq (default,$(PROFILE))
 	aws s3 sync s3://$(BUCKET)/data/ data/
-	aws s3 sync references/ s3://$(BUCKET)/references/
+	aws s3 sync s3://$(BUCKET)/references/ references/
 else
 	aws s3 sync s3://$(BUCKET)/data/ data/ --profile $(PROFILE)
-	aws s3 sync references/ s3://$(BUCKET)/references/ --profile $(PROFILE)
+	aws s3 sync s3://$(BUCKET)/references/ references/ --profile $(PROFILE)
 endif
 
 ## Set up python interpreter environment
